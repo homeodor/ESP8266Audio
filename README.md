@@ -1,4 +1,4 @@
-# ESP8266Audio - supports ESP8266 & ESP32 [![Build Status](https://travis-ci.org/homeodor/ESP8266Audio.svg?branch=master)](https://travis-ci.org/homeodor/ESP8266Audio)
+# ESP8266Audio - supports ESP8266 & ESP32
 
 This is an experimental fork of the original ESP8266Audio, which aims to add sampler-like functionality to the library. Namely, it currently has implemented SD_MMC variant of file reader, persistent wave file feeder (it keeps files open until explicitly requested to close them), and a modified limiter-enabled mixer which should eliminate distortion.
 
