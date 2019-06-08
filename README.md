@@ -1,4 +1,9 @@
 # ESP8266Audio - supports ESP8266 & ESP32 [![Build Status](https://travis-ci.org/earlephilhower/ESP8266Audio.svg?branch=master)](https://travis-ci.org/earlephilhower/ESP8266Audio)
+
+This is an experimental fork of the original ESP8266Audio, which aims to add sampler-like functionality to the library. Namely, it currently has implemented SD_MMC variant of file reader, persistent wave file feeder (it keeps files open until explicitly requested to close them), and a modified limiter-enabled mixer which should eliminate distortion.
+
+***
+
 Arduino library for parsing and decoding MOD, WAV, MP3, FLAC, MIDI, AAC, and RTTL files and playing them on an I2S DAC or even using a software-simulated delta-sigma DAC with dynamic 32x-128x oversampling.
 
 ESP8266 is fully supported and most mature, but ESP32 is also mostly there with built-in DAC as well as external ones.
